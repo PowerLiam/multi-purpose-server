@@ -43,8 +43,8 @@ public class LocalFileServiceImpl implements LocalFileService {
         if (!localFile.exists()) {
             boolean success = localFile.createNewFile();
         } else if (!append){
-                boolean deletionSuccess = localFile.delete();
-                boolean recreationSuccess = localFile.createNewFile();
+            boolean deletionSuccess = localFile.delete();
+            boolean recreationSuccess = localFile.createNewFile();
         }
 
         return new BufferedOutputStream(new FileOutputStream(localFile));

@@ -14,7 +14,6 @@ public interface LocalFileService {
      * must exist
      *
      * @param localFilePath Path specifying a local file (on-box)
-
      *
      * @return  an input stream that can be used to read from the file specified by localFilePath
      *

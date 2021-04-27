@@ -12,11 +12,10 @@ import java.net.SocketAddress;
  */
 @Service
 public class RemoteConnectionServiceImpl implements RemoteConnectionService {
-
-    private final SSLSocketFactory factory;
-
     private static final int SOCKET_CONNECT_TIMEOUT = 3000;
     private static final int SOCKET_CONNECT_RETRIES = 5;
+
+    private final SSLSocketFactory factory;
 
     @Override
     public Socket createConnection(Socket unconnectedSocket, SocketAddress endpoint)
