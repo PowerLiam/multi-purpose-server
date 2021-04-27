@@ -1,4 +1,4 @@
-package com.liamnbtech.server.service.connection.remote;
+package com.liamnbtech.server.connection.remote;
 
 import org.springframework.stereotype.Service;
 

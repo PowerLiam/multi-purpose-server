@@ -1,6 +1,6 @@
-package com.liamnbtech.server.service.connection.remote;
+package com.liamnbtech.server.connection.remote;
 
-import com.liamnbtech.server.service.connection.ConnectionCreationException;
+import com.liamnbtech.server.connection.ConnectionCreationException;
 
 /**
  * Exception indicating that a remote connection could not be created.

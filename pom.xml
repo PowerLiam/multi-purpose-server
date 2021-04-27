@@ -9,13 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.liamnbtech</groupId>
-    <artifactId>server</artifactId>
+    <artifactId>MultiPurposeServer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>server</name>
-    <description>Multi purpose spring boot server</description>
+    <name>MultiPurposeServer</name>
+    <description>Multi-purpose Spring Boot server ready for use on AWS</description>
 
     <properties>
-        <java.version>8</java.version>
+        <java.version>16</java.version>
     </properties>
 
     <dependencies>
@@ -53,7 +53,6 @@
             <artifactId>jnr-unixsocket</artifactId>
             <version>0.38.3</version>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -61,6 +60,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.3.3.RELEASE</version>
             </plugin>
         </plugins>
     </build>

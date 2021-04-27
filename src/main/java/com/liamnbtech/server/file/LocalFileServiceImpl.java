@@ -1,4 +1,4 @@
-package com.liamnbtech.server.service.file;
+package com.liamnbtech.server.file;
 
 import org.springframework.stereotype.Service;
 

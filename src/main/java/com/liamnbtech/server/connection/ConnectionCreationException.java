@@ -1,4 +1,4 @@
-package com.liamnbtech.server.service.connection;
+package com.liamnbtech.server.connection;
 
 /**
  * Exception indicating that a connection could not be created.

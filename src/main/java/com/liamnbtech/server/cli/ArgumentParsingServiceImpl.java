@@ -1,4 +1,4 @@
-package com.liamnbtech.server.service.arguments;
+package com.liamnbtech.server.cli;
 
 import org.apache.commons.cli.*;
 import org.springframework.boot.ApplicationArguments;

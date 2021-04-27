@@ -1,4 +1,4 @@
-package com.liamnbtech.server.service.connection.remote;
+package com.liamnbtech.server.connection.remote;
 
 import java.net.Socket;
 import java.net.SocketAddress;

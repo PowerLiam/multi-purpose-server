@@ -1,4 +1,4 @@
-package com.liamnbtech.server.utils.io;
+package com.liamnbtech.server.util;
 
 import java.util.regex.Pattern;
 
